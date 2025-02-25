@@ -1,8 +1,8 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "This is a  Assignment Project",
-  "main": "server.js",
+  "description": "This is an Assignment Project",
+  "main": "src/server.js",
   "type": "module",
   "scripts": {
     "start": "node src/server.js",
@@ -17,7 +17,9 @@
     "express": "^4.21.2",
     "mysql2": "^3.12.0",
     "nodemailer": "^6.10.0",
-    "nodemon": "^3.1.9",
     "prisma": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
