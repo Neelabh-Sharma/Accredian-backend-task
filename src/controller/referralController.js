@@ -25,7 +25,7 @@ export const submitReferral = async (req, res) => {
     });
 
     // Send confirmation email
-    await sendEmail(referrerEmail, referredName);
+    await sendEmail(referredEmail, referredName,referralCourse);
 
     res.status(201).json({ message: "Referral submitted successfully!", referral });
   } catch (error) {
